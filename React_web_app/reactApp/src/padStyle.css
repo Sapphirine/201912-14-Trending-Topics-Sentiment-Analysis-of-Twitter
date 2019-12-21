@@ -1,0 +1,45 @@
+html {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.List {
+  border: 1px solid #d9dddd;
+}
+
+.ListItemEven,
+.ListItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ListItemEven {
+  background-color: #f8f8f0;
+}
+
+.RowEven,
+.RowOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1f7f7;
+}
+
+.RowEven {
+  background-color: #f8f8f0;
+}
+
+.line {
+    background:green;
+    position:relative;
+    width: 100px;
+    height:5px;
+}
+.line:before {
+    content:'';
+    background:red;
+    width:30%;
+    height:5px;
+    position:absolute;
+}

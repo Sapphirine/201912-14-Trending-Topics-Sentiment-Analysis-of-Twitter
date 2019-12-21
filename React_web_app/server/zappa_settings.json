@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "finalserver",
+        "runtime": "python3.7",
+        "s3_bucket": "big-final-server",
+        "environment_variables": {
+            "GOOGLE_APPLICATION_CREDENTIALS": "./final-client-keys.json"
+        }
+    }
+}
